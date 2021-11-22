@@ -7,7 +7,7 @@ public class Client
 {
 	private String nomclient;
 	private Facture facture;
-	private List<Facture> factures;
+	private ArrayList<Facture> factures;
 	/** 
 	 * Crée un client.
 	 * @param nom le nom du client. 
@@ -57,7 +57,7 @@ public class Client
 
 	public List<Facture> getFactures()
 	{
-		return List<Facture> factures;
+		return new ArrayList<Facture> (factures);
 	}
 	
 	/**
@@ -73,7 +73,7 @@ public class Client
 	/**
 	 * Créé une facture en précisant si elle est reglée.
 	 * @param montant Le montant de la facture.
-	 * @param reglée Vrai si la facture est reglée.
+	 * @param reglee Vrai si la facture est reglée.
 	 * @return la facture créée.
 	 */
 	
