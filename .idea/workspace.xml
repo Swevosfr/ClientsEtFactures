@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="01d836a0-2a13-4e57-8b1c-74f803a53d6a" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/src/metier/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/metier/Client.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/metier/Facture.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/metier/Facture.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,7 +30,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1637571907196</updated>
-      <workItem from="1637571909628" duration="4789000" />
+      <workItem from="1637571909628" duration="5104000" />
     </task>
     <servers />
   </component>

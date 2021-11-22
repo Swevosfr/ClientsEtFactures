@@ -7,6 +7,7 @@ public class Client
 {
 	private String nomclient;
 	private Facture facture;
+	private List<Facture> factures;
 	/** 
 	 * Crée un client.
 	 * @param nom le nom du client. 
@@ -56,8 +57,7 @@ public class Client
 
 	public List<Facture> getFactures()
 	{
-		List<Facture> liste = new List<Facture>();
-		return null;
+		return List<Facture> factures;
 	}
 	
 	/**
