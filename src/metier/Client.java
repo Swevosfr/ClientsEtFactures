@@ -47,6 +47,7 @@ public class Client
 	public Facture createFacture(int montant)
 	{
 		Facture facture = new Facture(this);
+
 		return facture;
 	}
 	
@@ -108,5 +109,7 @@ public class Client
 	
 	public void delete()
 	{
+		nomclient.remove();
+
 	}
 }

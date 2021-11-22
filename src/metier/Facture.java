@@ -9,11 +9,12 @@ public class Facture
 		private int reglementfacture;
 		private Client client;
 
-		Facture(Client client)
+		Facture(Client client, int montantfacture)
 		{
 			this.client = client;
 			this.montantfacture = montantfacture;
 			this.datefacture = LocalDate.now();
+
 		}
 	/**
 	 * Retourne le client à qui est adressée la facture..
